@@ -1,4 +1,4 @@
-.navBar{
+.navBar {
   position: absolute;
   top: 0;
   display: flex;
@@ -6,24 +6,48 @@
   width: 100%;
   padding: 50px 165px;
 }
-.navBar ul{
+.navBar ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 70%;
   max-width: 780px;
-
 }
-.navBar li{
+.navBar li {
   list-style-type: none;
   cursor: pointer;
   color: #fff;
   padding: 5px 30px;
 }
 
-.navBar--button{
+.navBar--button {
   border: 1px solid white;
   border-radius: 5px;
 }
 
+@media (max-width: 1024px) {
+  .navBar ul {
+    width: 100%;
+  }
+}
 
+@media (max-width: 769px) {
+  .navBar {
+    padding: 20px;
+    flex-direction: column;
+  }
+  .navBar span{
+    max-width: 20%;
+  }
+  .navBar li{
+    padding: 5px 10px;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .navBar ul{
+    display: none;
+  }
+
+}

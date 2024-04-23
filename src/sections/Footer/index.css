@@ -59,3 +59,32 @@
   margin-left: 20px;
   margin-top: 26px;
 }
+
+@media (max-width: 1024px){
+  .footer--content{
+    padding: 0 50px;
+  }
+
+  .footer--copyright{
+    margin: 40px 0;
+  }
+}
+
+@media (max-width: 768px){
+  .footer--img{
+    height: 64vh;
+  }
+  .footer--collumns{
+    gap: 5px;
+  }
+
+  .footer--collumns span{
+    max-width: 100px;
+  }
+  .footer--collumns span:last-child{
+    min-width: unset;
+  }
+  .cart--wrapper{
+    gap: 10px;
+  }
+}

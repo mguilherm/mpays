@@ -1,8 +1,7 @@
-import React, { useState } from "react";
+import React from "react";
 import FooterImage from "../../assets/Footer.png";
 import Certificates from "../../assets/Certificates.png";
 import Logo from "../../assets/LogoColor.png";
-import "./index.css";
 import FacebookIcon from "../../assets/socialMedia/facebook.png";
 import LinkedInIcon from "../../assets/socialMedia/linkedin.png";
 import InstagramIcon from "../../assets/socialMedia/instagram.png";
@@ -15,6 +14,7 @@ import JCB from "../../assets/carts/JCB.png";
 import Mastercard from "../../assets/carts/Mastercard.png";
 import PIX from "../../assets/carts/PIX.png";
 import Visa from "../../assets/carts/Visa.png";
+import "./index.css";
 
 function Footer() {
   const cartIcon = [

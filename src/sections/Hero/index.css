@@ -1,18 +1,18 @@
-.hero{
+.hero {
   width: 100%;
   position: relative;
 }
-.hero img{
+.hero img {
   display: flex;
   width: 100%;
 }
 
-.hero--nav-bar{
+.hero--nav-bar {
   position: absolute;
   top: 0;
 }
 
-.hero--wrap-content{
+.hero--wrap-content {
   display: flex;
   flex-direction: row;
   align-items: center;
@@ -21,19 +21,68 @@
   padding: 0 165px;
 }
 
-.hero--wrap-content h1{
+.hero--wrap-content h1 {
   font-size: 48px;
   font-weight: 200;
   max-width: 90%;
 }
 
-.hero--wrap-content p{
+.hero--wrap-content p {
   font-size: 18px;
   line-height: 32px;
   max-width: 90%;
   margin-top: 22px;
 }
 
-.hero--image{
+.hero--image {
   max-width: 760px;
+}
+
+@media (max-width: 1440px) {
+  .hero--image {
+    width: 70%;
+  }
+
+  .hero--wrap-content {
+    padding: 0 90px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .hero--image {
+    max-width: 460px;
+  }
+  .hero--wrap-content {
+    padding: 0 26px;
+  }
+
+  .hero--wrap-content h1 {
+    font-size: 38px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero--image {
+    max-width: 360px;
+  }
+
+  .hero--wrap-content h1 {
+    font-size: 30px;
+    max-width: unset;
+  }
+  .hero--wrap-content p {
+    margin-top: unset;
+  }
+}
+
+@media (max-width: 425px) {
+
+  .hero--image {
+    max-width: 160px;
+  }
+
+  .hero--wrap-content h1 {
+    font-size: 24px;
+  }
+
 }
