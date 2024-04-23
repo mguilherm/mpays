@@ -10,7 +10,11 @@ function Testimony() {
       <div className="testimony--content">
         <h3>Depoimentos</h3>
         <p>O suporte ao cliente é nossa primeira prioridade.</p>
+        <div className="testimony--card">
         <EachTestimony />
+        <EachTestimony />
+        <EachTestimony />
+        </div>
       </div>
     </div>
   );

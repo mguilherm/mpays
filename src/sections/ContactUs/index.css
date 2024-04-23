@@ -1,0 +1,19 @@
+.contact-us{
+  padding: 120px 165px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact-us span{
+  color: #5E5873;
+  max-width: 540px;
+}
+.contact-us h3{
+  font-size: 48px;
+  font-weight: 300;
+}
+
+.contact-us p{
+  margin-top: 14px;
+  font-size: 18px;
+}

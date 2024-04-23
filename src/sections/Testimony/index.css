@@ -1,9 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
 .testimony{
   position: relative;
 }
 .testimony--img{
   width: 100%;
   padding-top: 120px;
+}
+
+.testimony--card{
+  display: flex;
+  justify-content:space-around;
+  padding: 163px 163px 0;
 }
 
 .testimony--content{
@@ -23,4 +31,35 @@
   font-size: 18px;
   font-weight: 300;
   margin-top: 8px;
+}
+
+.box{
+  position: relative;
+  max-width: 352px;
+  min-height: 352px;
+  border-radius: 8px;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  padding: 100px 40px 40px;
+}
+
+.box--img{
+  position: absolute;
+  top: -15%;
+}
+
+.box--content:first-child{
+  font-family: "Mulish", sans-serif;
+}
+.box--content p{
+  font-size: 14px;
+}
+
+.box--content h4{
+  font-weight: 400;
+  font-size: 18px;
+  margin-top: 16px;
 }
