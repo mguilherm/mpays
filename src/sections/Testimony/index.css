@@ -1,0 +1,26 @@
+.testimony{
+  position: relative;
+}
+.testimony--img{
+  width: 100%;
+  padding-top: 120px;
+}
+
+.testimony--content{
+  position: absolute;
+  top: 20%;
+  color: #5E5873;
+  text-align: center;
+  width: 100%;
+}
+
+.testimony--content h3{
+  font-size: 50px;
+  font-weight: 300;
+}
+
+.testimony--content p{
+  font-size: 18px;
+  font-weight: 300;
+  margin-top: 8px;
+}
