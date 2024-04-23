@@ -15,7 +15,7 @@ function NavBar() {
         <li>Depoimentos</li>
         <li>Cadastro</li>
         <li>Contato</li>
-        <li>Entrar</li>
+        <li className='navBar--button'>Entrar</li>
       </ul>
   </div>
   );

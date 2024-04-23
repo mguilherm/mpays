@@ -11,3 +11,29 @@
   position: absolute;
   top: 0;
 }
+
+.hero--wrap-content{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  position: absolute;
+  top: 15%;
+  padding: 0 165px;
+}
+
+.hero--wrap-content h1{
+  font-size: 48px;
+  font-weight: 200;
+  max-width: 90%;
+}
+
+.hero--wrap-content p{
+  font-size: 18px;
+  line-height: 32px;
+  max-width: 90%;
+  margin-top: 22px;
+}
+
+.hero--image{
+  max-width: 760px;
+}

@@ -9,14 +9,21 @@
 .navBar ul{
   display: flex;
   justify-content: space-between;
-  width: 60%;
-  max-width: 590px;
+  align-items: center;
+  width: 70%;
+  max-width: 780px;
 
 }
 .navBar li{
   list-style-type: none;
   cursor: pointer;
   color: #fff;
+  padding: 5px 30px;
+}
+
+.navBar--button{
+  border: 1px solid white;
+  border-radius: 5px;
 }
 
 
