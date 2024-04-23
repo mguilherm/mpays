@@ -1,0 +1,22 @@
+.navBar{
+  position: absolute;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 50px 165px;
+}
+.navBar ul{
+  display: flex;
+  justify-content: space-between;
+  width: 60%;
+  max-width: 590px;
+
+}
+.navBar li{
+  list-style-type: none;
+  cursor: pointer;
+  color: #fff;
+}
+
+
