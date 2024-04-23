@@ -58,7 +58,7 @@ function Footer() {
           <span>
             <div className="cart--wrapper">
               {cartIcon.map((item) => {
-                return <img src={item} alt="" />;
+                return <img key={item} src={item} alt="" />;
               })}
             </div>
           </span>
