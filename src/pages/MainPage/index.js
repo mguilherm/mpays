@@ -4,6 +4,7 @@ import Testimony from "../../sections/Testimony";
 import ContactUs from "../../sections/ContactUs";
 import Whatsapp from '../../assets/Whatsapp.png';
 import './index.css'
+import Footer from "../../sections/Footer";
 
 export default function MainPage(){
   return(
@@ -13,6 +14,7 @@ export default function MainPage(){
       <Carrousel/>
       <Testimony/>
       <ContactUs/>
+      <Footer/>
 
     </div>
   )

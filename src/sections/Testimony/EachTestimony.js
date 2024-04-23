@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import Quote from "../../assets/quote.png";
+import Quote from "../../assets/Quote.png";
 import Image01 from "../../assets/testimony/image 1.png";
 
 function EachTestimony() {
